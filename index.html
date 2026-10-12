@@ -1,0 +1,2518 @@
+<!doctype html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0" />
+    <title>Proszkowy — Lakiernia Proszkowa, Rybnik | Renowacja felg, piaskowanie</title>
+    <meta name="description" content="Proszkowy — lakiernia proszkowa w Rybniku (ul. Brzezińska 48e). Oferujemy profesjonalne lakierowanie proszkowe, renowację felg, piaskowanie, śrutowanie i szkiełkowanie metalu. Zadzwoń: 790 802 630." />
+    <meta name="keywords" content="lakiernia proszkowa Rybnik, lakierowanie proszkowe Rybnik, renowacja felg Rybnik, piaskowanie Rybnik, śrutowanie Rybnik, szkiełkowanie Rybnik" />
+    <meta name="author" content="Proszkowy — Lakiernia Proszkowa" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://proszkowy-rybnik.pl" />
+    <meta property="og:title" content="Proszkowy — Lakiernia Proszkowa, Rybnik | Renowacja felg, piaskowanie" />
+    <meta property="og:description" content="Profesjonalna lakiernia proszkowa w Rybniku: lakierowanie proszkowe, renowacja felg, piaskowanie, śrutowanie i szkiełkowanie. Zadzwoń: 790 802 630." />
+    <meta property="og:image" content="https://i.ibb.co/35Fg41kJ/770658711-1557124986207797-2705213168696874513-n.jpg" />
+    <meta property="og:locale" content="pl_PL" />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Proszkowy — Lakiernia Proszkowa, Rybnik" />
+    <meta name="twitter:description" content="Lakierowanie proszkowe, renowacja felg, piaskowanie, śrutowanie, szkiełkowanie w Rybniku." />
+    <meta name="twitter:image" content="https://i.ibb.co/35Fg41kJ/770658711-1557124986207797-2705213168696874513-n.jpg" />
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/jpeg" href="https://i.ibb.co/35Fg41kJ/770658711-1557124986207797-2705213168696874513-n.jpg" />
+
+    <!-- Szybkie wstępne połączenie dla przyspieszenia ładowania obrazów i czcionek -->
+    <link rel="preconnect" href="https://i.ibb.co" crossorigin />
+    <link rel="dns-prefetch" href="https://i.ibb.co" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;600&family=Saira+Condensed:wght@600;700;800&display=swap" rel="stylesheet" />
+
+    <!-- Schema.org Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "AutoBodyShop",
+      "name": "Proszkowy — Lakiernia Proszkowa",
+      "image": "https://i.ibb.co/35Fg41kJ/770658711-1557124986207797-2705213168696874513-n.jpg",
+      "telephone": "+48790802630",
+      "email": "proszkowy.rybnik@gmail.com",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "ul. Brzezińska 48e",
+        "addressLocality": "Rybnik",
+        "postalCode": "44-203",
+        "addressCountry": "PL"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 50.08998,
+        "longitude": 18.55998
+      },
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday"],
+          "opens": "07:00",
+          "closes": "15:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "Friday",
+          "opens": "07:00",
+          "closes": "14:00"
+        }
+      ],
+      "sameAs": [
+        "https://www.facebook.com/proszkowypiaskowy/"
+      ],
+      "priceRange": "$$"
+    }
+    </script>
+
+    <style>
+      /* ==========================================================================
+         ZMIENNE CSS & RESET
+         ========================================================================== */
+      :root {
+        --color-bg: #FFFFFF;
+        --color-bg-alt: #F4F5F6;
+        --color-graphite: #3A3D42;
+        --color-graphite-dark: #26282C;
+        --color-graphite-card: #464A50;
+        --color-orange: #FF6600;
+        --color-orange-hover: #D95500;
+        --color-orange-glow: #FF8533;
+        --color-text-dark: #3A3D42;
+        --color-text-muted: #6B6F76;
+        --color-text-tertiary: #A3A7AD;
+        --color-text-light: #FFFFFF;
+        --border-light: rgba(58, 61, 66, 0.12);
+        --border-dark: rgba(255, 255, 255, 0.1);
+
+        --font-display: 'Saira Condensed', sans-serif;
+        --font-body: 'Inter', sans-serif;
+        --font-mono: 'JetBrains Mono', monospace;
+
+        --radius-sm: 3px;
+        --radius-md: 4px;
+        --radius-lg: 6px;
+
+        --container-max: 1200px;
+        --transition: 0.22s cubic-bezier(0.16, 1, 0.3, 1);
+      }
+
+      *, *::before, *::after {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+
+      /* Zapobieganie przesuwowi poziomemu */
+      html, body {
+        width: 100%;
+        max-width: 100vw;
+        overflow-x: hidden;
+        position: relative;
+        scroll-behavior: smooth;
+        font-size: 16px;
+        -webkit-text-size-adjust: 100%;
+      }
+
+      body {
+        font-family: var(--font-body);
+        color: var(--color-text-dark);
+        background-color: var(--color-bg);
+        line-height: 1.6;
+        -webkit-font-smoothing: antialiased;
+        text-rendering: optimizeLegibility;
+      }
+
+      img {
+        max-width: 100%;
+        height: auto;
+        display: block;
+        content-visibility: auto;
+      }
+
+      a {
+        color: inherit;
+        text-decoration: none;
+      }
+
+      button {
+        font-family: inherit;
+        cursor: pointer;
+        border: none;
+        background: none;
+        touch-action: manipulation;
+      }
+
+      .container {
+        width: 100%;
+        max-width: var(--container-max);
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 1.25rem;
+        padding-right: 1.25rem;
+      }
+
+      /* Oznaczenia techniczne & nagłówki */
+      .section-tag {
+        font-family: var(--font-mono);
+        font-size: 0.8125rem;
+        font-weight: 600;
+        letter-spacing: 0.12em;
+        text-transform: uppercase;
+        color: var(--color-orange);
+        margin-bottom: 0.5rem;
+        display: inline-flex;
+        align-items: center;
+        gap: 0.5rem;
+      }
+
+      .section-tag::before {
+        content: '';
+        display: inline-block;
+        width: 16px;
+        height: 2px;
+        background-color: var(--color-orange);
+      }
+
+      .section-title {
+        font-family: var(--font-display);
+        font-size: clamp(2.1rem, 4.5vw, 3.25rem);
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 0.02em;
+        line-height: 1.05;
+        color: var(--color-text-dark);
+        margin-bottom: 0.75rem;
+        text-wrap: balance;
+      }
+
+      .section-title.light {
+        color: var(--color-text-light);
+      }
+
+      .section-subtitle {
+        color: var(--color-text-muted);
+        font-size: 1.0625rem;
+        max-width: 640px;
+        margin-bottom: 2.75rem;
+      }
+
+      .section-subtitle.light {
+        color: rgba(255, 255, 255, 0.75);
+      }
+
+      /* Przyciski z wydajnymi animacjami */
+      .btn {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        gap: 0.625rem;
+        font-family: var(--font-display);
+        font-size: 1.125rem;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+        padding: 0.8rem 1.625rem;
+        border-radius: var(--radius-sm);
+        transition: transform var(--transition), background-color var(--transition), box-shadow var(--transition), border-color var(--transition);
+        white-space: nowrap;
+        text-decoration: none;
+        will-change: transform;
+        min-height: 46px;
+      }
+
+      .btn-primary {
+        background-color: var(--color-orange);
+        color: #FFFFFF;
+        box-shadow: 0 4px 14px rgba(255, 102, 0, 0.3);
+      }
+
+      @media (hover: hover) and (pointer: fine) {
+        .btn-primary:hover {
+          background-color: var(--color-orange-hover);
+          transform: translateY(-2px);
+          box-shadow: 0 6px 20px rgba(255, 102, 0, 0.45);
+        }
+      }
+
+      .btn-primary:active {
+        transform: translateY(0);
+        box-shadow: 0 2px 8px rgba(255, 102, 0, 0.25);
+      }
+
+      .btn-secondary {
+        background: transparent;
+        color: #FFFFFF;
+        border: 1.5px solid rgba(255, 255, 255, 0.85);
+      }
+
+      @media (hover: hover) and (pointer: fine) {
+        .btn-secondary:hover {
+          background: #FFFFFF;
+          color: var(--color-graphite-dark);
+          border-color: #FFFFFF;
+          transform: translateY(-2px);
+        }
+      }
+
+      .btn-secondary:active {
+        transform: translateY(0);
+      }
+
+      .btn-outline-dark {
+        background: transparent;
+        color: var(--color-graphite-dark);
+        border: 1.5px solid var(--color-graphite);
+      }
+
+      @media (hover: hover) and (pointer: fine) {
+        .btn-outline-dark:hover {
+          background: var(--color-graphite-dark);
+          color: #FFFFFF;
+          border-color: var(--color-graphite-dark);
+          transform: translateY(-2px);
+        }
+      }
+
+      .btn-outline-dark:active {
+        transform: translateY(0);
+      }
+
+      /* ==========================================================================
+         1. NAWIGACJA (HEADER)
+         ========================================================================== */
+      .site-header {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 1000;
+        padding: 1rem 0;
+        transition: padding 0.25s ease, background-color 0.25s ease, box-shadow 0.25s ease;
+        background: transparent;
+      }
+
+      .site-header.scrolled {
+        padding: 0.65rem 0;
+        background: rgba(255, 255, 255, 0.98);
+        border-bottom: 1px solid rgba(58, 61, 66, 0.12);
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.06);
+      }
+
+      @supports (backdrop-filter: blur(10px)) {
+        .site-header.scrolled {
+          background: rgba(255, 255, 255, 0.92);
+          backdrop-filter: blur(10px);
+          -webkit-backdrop-filter: blur(10px);
+        }
+      }
+
+      .nav-container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 1rem;
+      }
+
+      .brand {
+        display: flex;
+        align-items: center;
+        gap: 0.75rem;
+        text-decoration: none;
+      }
+
+      .brand-logo-img {
+        width: 42px;
+        height: 42px;
+        border-radius: 50%;
+        border: 2px solid var(--color-orange);
+        object-fit: cover;
+        flex-shrink: 0;
+      }
+
+      .brand-text {
+        display: flex;
+        flex-direction: column;
+      }
+
+      .brand-name {
+        font-family: var(--font-display);
+        font-size: 1.5rem;
+        font-weight: 800;
+        letter-spacing: 0.04em;
+        line-height: 1;
+        color: #FFFFFF;
+        transition: color 0.25s ease;
+      }
+
+      .site-header.scrolled .brand-name {
+        color: var(--color-graphite-dark);
+      }
+
+      .brand-sub {
+        font-family: var(--font-display);
+        font-size: 0.8125rem;
+        font-weight: 600;
+        letter-spacing: 0.05em;
+        text-transform: uppercase;
+        color: var(--color-orange);
+        line-height: 1.1;
+      }
+
+      .nav-links {
+        display: flex;
+        align-items: center;
+        gap: 1.75rem;
+        list-style: none;
+      }
+
+      .nav-links a {
+        font-family: var(--font-body);
+        font-size: 0.9375rem;
+        font-weight: 500;
+        color: rgba(255, 255, 255, 0.9);
+        transition: color var(--transition);
+        position: relative;
+        padding: 0.25rem 0;
+      }
+
+      .nav-links a::after {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 0%;
+        height: 2px;
+        background-color: var(--color-orange);
+        transition: width var(--transition);
+      }
+
+      @media (hover: hover) and (pointer: fine) {
+        .nav-links a:hover {
+          color: #FFFFFF;
+        }
+        .nav-links a:hover::after {
+          width: 100%;
+        }
+        .site-header.scrolled .nav-links a:hover {
+          color: var(--color-orange);
+        }
+      }
+
+      .site-header.scrolled .nav-links a {
+        color: var(--color-graphite);
+      }
+
+      .nav-action {
+        display: flex;
+        align-items: center;
+      }
+
+      .nav-phone-btn {
+        font-family: var(--font-mono);
+        font-size: 0.875rem;
+        font-weight: 600;
+        letter-spacing: 0.02em;
+        padding: 0.5rem 1.125rem;
+        min-height: 40px;
+      }
+
+      .hamburger-btn {
+        display: none;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 44px;
+        height: 44px;
+        background: rgba(255, 255, 255, 0.1);
+        border: 1px solid rgba(255, 255, 255, 0.2);
+        border-radius: var(--radius-sm);
+        cursor: pointer;
+        gap: 5px;
+        z-index: 1002;
+        transition: background 0.2s ease;
+      }
+
+      .site-header.scrolled .hamburger-btn {
+        background: var(--color-bg-alt);
+        border-color: var(--border-light);
+      }
+
+      .hamburger-line {
+        width: 22px;
+        height: 2px;
+        background-color: var(--color-orange);
+        border-radius: 2px;
+        transition: transform 0.25s ease, opacity 0.25s ease;
+      }
+
+      .hamburger-btn.active .hamburger-line:nth-child(1) {
+        transform: translateY(7px) rotate(45deg);
+      }
+
+      .hamburger-btn.active .hamburger-line:nth-child(2) {
+        opacity: 0;
+      }
+
+      .hamburger-btn.active .hamburger-line:nth-child(3) {
+        transform: translateY(-7px) rotate(-45deg);
+      }
+
+      /* Mobile Navigation Drawer & Przycisk Wyjścia */
+      .mobile-menu-overlay {
+        position: fixed;
+        inset: 0;
+        background: #1f2125;
+        z-index: 2000;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 2rem 1.5rem;
+        opacity: 0;
+        pointer-events: none;
+        transition: opacity 0.25s ease;
+        overflow-y: auto;
+      }
+
+      .mobile-menu-overlay.active {
+        opacity: 1;
+        pointer-events: auto;
+      }
+
+      .mobile-close-btn {
+        position: absolute;
+        top: 1.25rem;
+        right: 1.25rem;
+        display: inline-flex;
+        align-items: center;
+        gap: 0.5rem;
+        padding: 0.6rem 1rem;
+        background: rgba(255, 255, 255, 0.08);
+        border: 1px solid rgba(255, 255, 255, 0.2);
+        border-radius: var(--radius-sm);
+        color: #FFFFFF;
+        font-family: var(--font-mono);
+        font-size: 0.875rem;
+        font-weight: 600;
+        letter-spacing: 0.05em;
+        text-transform: uppercase;
+        cursor: pointer;
+        transition: all 0.2s ease;
+        min-height: 44px;
+        z-index: 2005;
+      }
+
+      .mobile-close-btn:active {
+        background: var(--color-orange);
+        border-color: var(--color-orange);
+      }
+
+      .mobile-links {
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1.75rem;
+        margin-bottom: 2.5rem;
+        width: 100%;
+      }
+
+      .mobile-links a {
+        font-family: var(--font-display);
+        font-size: 2rem;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+        color: #FFFFFF;
+        padding: 0.25rem 1rem;
+        transition: color 0.2s ease;
+        display: block;
+        text-align: center;
+      }
+
+      .mobile-links a:active {
+        color: var(--color-orange);
+      }
+
+      /* ==========================================================================
+         2. HERO SECTION
+         ========================================================================== */
+      .hero {
+        position: relative;
+        min-height: 100vh;
+        display: flex;
+        align-items: center;
+        background: radial-gradient(circle at 75% 25%, #464A50 0%, #26282C 55%, #1d1e21 100%);
+        overflow: hidden;
+        padding-top: 6.5rem;
+        padding-bottom: 4.5rem;
+      }
+
+      /* Techniczna siatka w tle */
+      .hero::before {
+        content: '';
+        position: absolute;
+        inset: 0;
+        background-image: 
+          linear-gradient(rgba(255, 255, 255, 0.04) 1px, transparent 1px),
+          linear-gradient(90deg, rgba(255, 255, 255, 0.04) 1px, transparent 1px);
+        background-size: 40px 40px;
+        pointer-events: none;
+      }
+
+      /* Pomarańczowa poświata u dołu */
+      .hero::after {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 180px;
+        background: radial-gradient(ellipse 65% 100px at 50% 100%, rgba(255, 102, 0, 0.16), transparent 75%);
+        pointer-events: none;
+      }
+
+      .hero-content {
+        position: relative;
+        z-index: 2;
+        max-width: 820px;
+      }
+
+      .hero-location {
+        display: inline-flex;
+        align-items: center;
+        gap: 0.5rem;
+        font-family: var(--font-mono);
+        font-size: 0.8125rem;
+        font-weight: 500;
+        color: #FFFFFF;
+        background: rgba(255, 255, 255, 0.08);
+        border: 1px solid rgba(255, 255, 255, 0.16);
+        padding: 0.35rem 0.85rem;
+        border-radius: var(--radius-sm);
+        margin-bottom: 1.5rem;
+        letter-spacing: 0.04em;
+      }
+
+      .hero-title {
+        font-family: var(--font-display);
+        font-size: clamp(3rem, 8.5vw, 6.25rem);
+        font-weight: 800;
+        line-height: 0.95;
+        letter-spacing: 0.02em;
+        text-transform: uppercase;
+        margin-bottom: 1.5rem;
+        text-wrap: balance;
+      }
+
+      .hero-title .title-white {
+        display: block;
+        color: #FFFFFF;
+      }
+
+      .hero-title .title-orange {
+        display: block;
+        color: var(--color-orange);
+      }
+
+      .hero-services-bar {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 0.4rem 0.75rem;
+        font-size: 0.9375rem;
+        font-weight: 400;
+        color: rgba(255, 255, 255, 0.85);
+        margin-bottom: 2.5rem;
+        padding: 0.85rem 1.25rem;
+        background: rgba(38, 40, 44, 0.7);
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        border-radius: var(--radius-sm);
+      }
+
+      .hero-services-bar span.sep {
+        color: var(--color-orange);
+        font-weight: bold;
+      }
+
+      .hero-buttons {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1rem;
+      }
+
+      .hero-scroll-indicator {
+        position: absolute;
+        bottom: 1.25rem;
+        left: 50%;
+        transform: translateX(-50%);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 0.35rem;
+        color: rgba(255, 255, 255, 0.4);
+        font-family: var(--font-mono);
+        font-size: 0.6875rem;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+        z-index: 2;
+        pointer-events: none;
+      }
+
+      .hero-scroll-line {
+        width: 1.5px;
+        height: 24px;
+        background: linear-gradient(to bottom, var(--color-orange), transparent);
+        animation: pulseLine 2s infinite ease-in-out;
+      }
+
+      @keyframes pulseLine {
+        0%, 100% { opacity: 0.3; transform: scaleY(0.4); }
+        50% { opacity: 1; transform: scaleY(1); }
+      }
+
+      /* ==========================================================================
+         3. TICKER (PASEK PRZEWIJANY)
+         ========================================================================== */
+      .ticker-section {
+        background-color: var(--color-orange);
+        overflow: hidden;
+        white-space: nowrap;
+        padding: 0.75rem 0;
+        position: relative;
+        z-index: 10;
+        width: 100%;
+        max-width: 100%;
+        border-top: 1px solid rgba(255, 255, 255, 0.2);
+        border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+      }
+
+      .ticker-track {
+        display: inline-flex;
+        animation: tickerScroll 24s linear infinite;
+        will-change: transform;
+      }
+
+      @media (hover: hover) and (pointer: fine) {
+        .ticker-track:hover {
+          animation-play-state: paused;
+        }
+      }
+
+      .ticker-content {
+        display: flex;
+        align-items: center;
+        gap: 1.5rem;
+        font-family: var(--font-display);
+        font-size: 1.25rem;
+        font-weight: 800;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+        color: var(--color-graphite-dark);
+        padding-right: 1.5rem;
+      }
+
+      .ticker-bullet {
+        color: #FFFFFF;
+        font-size: 1rem;
+      }
+
+      @keyframes tickerScroll {
+        0% { transform: translate3d(0, 0, 0); }
+        100% { transform: translate3d(-50%, 0, 0); }
+      }
+
+      /* ==========================================================================
+         4. USŁUGI (SERVICES)
+         ========================================================================== */
+      .services-section {
+        padding: 6rem 0 5rem;
+        background-color: var(--color-bg);
+      }
+
+      .services-grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1.5rem;
+      }
+
+      .service-card {
+        background: #FFFFFF;
+        border: 1px solid var(--border-light);
+        border-radius: var(--radius-sm);
+        padding: 2.25rem 1.75rem;
+        position: relative;
+        transition: transform var(--transition), box-shadow var(--transition), border-color var(--transition);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        will-change: transform;
+      }
+
+      .service-card::before {
+        content: '';
+        position: absolute;
+        top: -1px;
+        left: -1px;
+        right: -1px;
+        height: 3px;
+        background-color: transparent;
+        transition: background-color var(--transition);
+        border-top-left-radius: var(--radius-sm);
+        border-top-right-radius: var(--radius-sm);
+      }
+
+      @media (hover: hover) and (pointer: fine) {
+        .service-card:hover {
+          transform: translateY(-5px);
+          box-shadow: 0 12px 30px rgba(0, 0, 0, 0.07);
+          border-color: rgba(58, 61, 66, 0.25);
+        }
+        .service-card:hover::before {
+          background-color: var(--color-orange);
+        }
+        .service-card:hover .service-icon-box {
+          background: rgba(255, 102, 0, 0.1);
+          color: var(--color-orange);
+        }
+      }
+
+      .service-card-top {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 1.5rem;
+      }
+
+      .service-index {
+        font-family: var(--font-mono);
+        font-size: 1.125rem;
+        font-weight: 700;
+        color: var(--color-orange);
+        letter-spacing: 0.05em;
+      }
+
+      .service-icon-box {
+        width: 48px;
+        height: 48px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: var(--color-bg-alt);
+        border-radius: var(--radius-sm);
+        color: var(--color-graphite);
+        transition: background-color var(--transition), color var(--transition);
+      }
+
+      .service-card-title {
+        font-family: var(--font-display);
+        font-size: 1.625rem;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 0.02em;
+        line-height: 1.15;
+        color: var(--color-text-dark);
+        margin-bottom: 0.75rem;
+      }
+
+      .service-card-desc {
+        font-size: 0.9375rem;
+        line-height: 1.55;
+        color: var(--color-text-muted);
+      }
+
+      @media (min-width: 1025px) {
+        .service-card:nth-child(4) {
+          grid-column: 1 / 2;
+          transform: translateX(50%);
+        }
+        .service-card:nth-child(5) {
+          grid-column: 2 / 3;
+          transform: translateX(50%);
+        }
+        @media (hover: hover) and (pointer: fine) {
+          .service-card:nth-child(4):hover {
+            transform: translateX(50%) translateY(-5px);
+          }
+          .service-card:nth-child(5):hover {
+            transform: translateX(50%) translateY(-5px);
+          }
+        }
+      }
+
+      /* ==========================================================================
+         5. PASEK GRAFITOWY — „DLACZEGO WARTO”
+         ========================================================================== */
+      .why-section {
+        background-color: var(--color-graphite-dark);
+        color: #FFFFFF;
+        padding: 5rem 0;
+        position: relative;
+        border-top: 1px solid rgba(255, 255, 255, 0.08);
+        border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+      }
+
+      .why-grid {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 2rem;
+      }
+
+      .why-item {
+        padding: 0.5rem 0.75rem;
+        position: relative;
+      }
+
+      .why-item:not(:last-child)::after {
+        content: '';
+        position: absolute;
+        top: 10%;
+        right: -1rem;
+        height: 80%;
+        width: 1px;
+        background-color: var(--border-dark);
+      }
+
+      .why-icon {
+        width: 44px;
+        height: 44px;
+        background: rgba(255, 255, 255, 0.06);
+        border: 1px solid rgba(255, 255, 255, 0.12);
+        border-radius: var(--radius-sm);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: var(--color-orange);
+        margin-bottom: 1.25rem;
+      }
+
+      .why-item-title {
+        font-family: var(--font-display);
+        font-size: 1.375rem;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 0.03em;
+        line-height: 1.2;
+        margin-bottom: 0.5rem;
+        color: #FFFFFF;
+      }
+
+      .why-item-desc {
+        font-size: 0.875rem;
+        color: rgba(255, 255, 255, 0.7);
+        line-height: 1.5;
+      }
+
+      /* ==========================================================================
+         6. REALIZACJE — GALERIA MASONRY (BEZ PODPISÓW)
+         ========================================================================== */
+      .gallery-section {
+        padding: 6rem 0;
+        background-color: var(--color-bg-alt);
+      }
+
+      .gallery-masonry {
+        column-count: 4;
+        column-gap: 1.25rem;
+        margin-bottom: 3rem;
+      }
+
+      .gallery-item {
+        break-inside: avoid;
+        margin-bottom: 1.25rem;
+        position: relative;
+        border-radius: var(--radius-md);
+        overflow: hidden;
+        cursor: pointer;
+        background-color: #E2E4E8;
+        border: 1px solid rgba(58, 61, 66, 0.1);
+        transition: transform var(--transition), box-shadow var(--transition);
+        will-change: transform;
+      }
+
+      @media (hover: hover) and (pointer: fine) {
+        .gallery-item:hover {
+          transform: translateY(-4px);
+          box-shadow: 0 12px 28px rgba(0, 0, 0, 0.16);
+        }
+        .gallery-item:hover img {
+          transform: scale(1.03);
+        }
+        .gallery-item:hover .gallery-zoom-badge {
+          opacity: 1;
+        }
+      }
+
+      .gallery-item:active {
+        transform: scale(0.99);
+      }
+
+      .gallery-item img {
+        width: 100%;
+        height: auto;
+        display: block;
+        transition: transform 0.35s ease;
+        will-change: transform;
+      }
+
+      /* Dyskretna ikonka podglądu w rogu zamiast podpisów */
+      .gallery-zoom-badge {
+        position: absolute;
+        top: 0.75rem;
+        right: 0.75rem;
+        width: 36px;
+        height: 36px;
+        background: rgba(38, 40, 44, 0.85);
+        border: 1px solid rgba(255, 255, 255, 0.2);
+        border-radius: var(--radius-sm);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: var(--color-orange);
+        opacity: 0;
+        transition: opacity var(--transition);
+        pointer-events: none;
+      }
+
+      .gallery-cta-wrap {
+        display: flex;
+        justify-content: center;
+      }
+
+      /* Modal Lightbox */
+      .lightbox-modal {
+        position: fixed;
+        inset: 0;
+        background: rgba(18, 19, 21, 0.94);
+        z-index: 3000;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 1.5rem;
+        opacity: 0;
+        pointer-events: none;
+        transition: opacity 0.25s ease;
+      }
+
+      .lightbox-modal.active {
+        opacity: 1;
+        pointer-events: auto;
+      }
+
+      .lightbox-content {
+        max-width: 92vw;
+        max-height: 88vh;
+        position: relative;
+      }
+
+      .lightbox-content img {
+        max-width: 100%;
+        max-height: 88vh;
+        object-fit: contain;
+        border-radius: var(--radius-sm);
+        border: 1px solid rgba(255, 255, 255, 0.2);
+        box-shadow: 0 10px 40px rgba(0, 0, 0, 0.6);
+      }
+
+      .lightbox-close {
+        position: absolute;
+        top: -46px;
+        right: 0;
+        color: #FFFFFF;
+        background: rgba(255, 255, 255, 0.1);
+        border: 1px solid rgba(255, 255, 255, 0.2);
+        border-radius: var(--radius-sm);
+        cursor: pointer;
+        padding: 0.4rem 0.75rem;
+        display: flex;
+        align-items: center;
+        gap: 0.35rem;
+        font-family: var(--font-mono);
+        font-size: 0.8125rem;
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+        transition: background-color 0.2s ease, color 0.2s ease;
+      }
+
+      .lightbox-close:hover {
+        background: var(--color-orange);
+        color: #FFFFFF;
+      }
+
+      /* ==========================================================================
+         7. GODZINY OTWARCIA
+         ========================================================================== */
+      .hours-section {
+        background-color: var(--color-graphite-dark);
+        color: #FFFFFF;
+        padding: 5.5rem 0;
+        position: relative;
+      }
+
+      .hours-wrapper {
+        display: grid;
+        grid-template-columns: 1fr 1.25fr;
+        gap: 3.5rem;
+        align-items: center;
+      }
+
+      .hours-info h3 {
+        font-family: var(--font-display);
+        font-size: 2.25rem;
+        font-weight: 700;
+        text-transform: uppercase;
+        margin-bottom: 1rem;
+        color: #FFFFFF;
+      }
+
+      .hours-info p {
+        color: rgba(255, 255, 255, 0.7);
+        font-size: 1rem;
+        margin-bottom: 2rem;
+        line-height: 1.6;
+      }
+
+      .status-pill {
+        display: inline-flex;
+        align-items: center;
+        gap: 0.625rem;
+        font-family: var(--font-mono);
+        font-size: 0.8125rem;
+        font-weight: 600;
+        padding: 0.5rem 1rem;
+        background: rgba(255, 255, 255, 0.07);
+        border: 1px solid rgba(255, 255, 255, 0.15);
+        border-radius: var(--radius-sm);
+        color: #FFFFFF;
+      }
+
+      .status-dot {
+        width: 8px;
+        height: 8px;
+        border-radius: 50%;
+        background-color: var(--color-orange);
+      }
+
+      .status-dot.open {
+        background-color: #10B981;
+        box-shadow: 0 0 8px #10B981;
+      }
+
+      .status-dot.closed {
+        background-color: #EF4444;
+      }
+
+      .hours-table-card {
+        background: #1f2124;
+        border: 1px solid rgba(255, 255, 255, 0.12);
+        border-radius: var(--radius-sm);
+        overflow: hidden;
+      }
+
+      .hours-table {
+        width: 100%;
+        border-collapse: collapse;
+        font-family: var(--font-mono);
+      }
+
+      .hours-row {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0.95rem 1.5rem;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+        font-size: 0.9375rem;
+      }
+
+      .hours-row:last-child {
+        border-bottom: none;
+      }
+
+      .hours-day {
+        color: rgba(255, 255, 255, 0.9);
+        font-weight: 500;
+      }
+
+      .hours-time {
+        color: #FFFFFF;
+        font-weight: 600;
+      }
+
+      .hours-row.special {
+        background: rgba(255, 102, 0, 0.08);
+      }
+
+      .hours-row.special .hours-day {
+        color: var(--color-orange);
+        font-weight: 600;
+      }
+
+      .hours-row.special .hours-time {
+        color: var(--color-orange);
+      }
+
+      .hours-row.closed {
+        opacity: 0.45;
+      }
+
+      .hours-row.closed .hours-time {
+        color: var(--color-text-tertiary);
+        font-weight: 400;
+      }
+
+      /* ==========================================================================
+         8. KONTAKT I MAPA
+         ========================================================================== */
+      .contact-section {
+        padding: 6rem 0;
+        background-color: var(--color-bg);
+      }
+
+      .contact-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 3rem;
+      }
+
+      .contact-cards-list {
+        display: flex;
+        flex-direction: column;
+        gap: 1.125rem;
+        margin-bottom: 2rem;
+      }
+
+      .contact-item {
+        display: flex;
+        align-items: center;
+        gap: 1.25rem;
+        padding: 1.125rem 1.25rem;
+        background: var(--color-bg-alt);
+        border: 1px solid var(--border-light);
+        border-radius: var(--radius-sm);
+        transition: transform var(--transition), border-color var(--transition), background-color var(--transition);
+        will-change: transform;
+      }
+
+      @media (hover: hover) and (pointer: fine) {
+        .contact-item:hover {
+          border-color: var(--color-orange);
+          background: #FFFFFF;
+          transform: translateX(4px);
+        }
+        .contact-item:hover .contact-icon-box {
+          background: var(--color-orange);
+          color: #FFFFFF;
+          border-color: var(--color-orange);
+        }
+      }
+
+      .contact-icon-box {
+        width: 46px;
+        height: 46px;
+        background: #FFFFFF;
+        border: 1px solid var(--border-light);
+        border-radius: var(--radius-sm);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: var(--color-orange);
+        flex-shrink: 0;
+        transition: background-color var(--transition), color var(--transition), border-color var(--transition);
+      }
+
+      .contact-label {
+        font-family: var(--font-mono);
+        font-size: 0.75rem;
+        font-weight: 600;
+        text-transform: uppercase;
+        color: var(--color-text-muted);
+        letter-spacing: 0.05em;
+        margin-bottom: 0.15rem;
+      }
+
+      .contact-val {
+        font-family: var(--font-body);
+        font-size: 1.0625rem;
+        font-weight: 600;
+        color: var(--color-graphite-dark);
+        line-height: 1.3;
+        word-break: break-word;
+      }
+
+      .contact-val.mono {
+        font-family: var(--font-mono);
+        letter-spacing: 0.02em;
+      }
+
+      .map-wrapper {
+        border-radius: var(--radius-sm);
+        overflow: hidden;
+        border: 1px solid var(--border-light);
+        background: #E5E7EB;
+        position: relative;
+        min-height: 380px;
+        height: 100%;
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.04);
+      }
+
+      .map-wrapper iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        border: 0;
+      }
+
+      /* ==========================================================================
+         9. STOPKA (FOOTER)
+         ========================================================================== */
+      .site-footer {
+        background-color: var(--color-graphite-dark);
+        color: #FFFFFF;
+        border-top: 2px solid var(--color-orange);
+        padding: 4.5rem 0 2rem;
+      }
+
+      .footer-grid {
+        display: grid;
+        grid-template-columns: 2fr 1fr 1fr;
+        gap: 3rem;
+        margin-bottom: 3.5rem;
+      }
+
+      .footer-brand-wrap {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+      }
+
+      .footer-brand {
+        display: flex;
+        align-items: center;
+        gap: 0.75rem;
+      }
+
+      .footer-desc {
+        color: rgba(255, 255, 255, 0.65);
+        font-size: 0.9375rem;
+        max-width: 420px;
+        line-height: 1.6;
+      }
+
+      .footer-heading {
+        font-family: var(--font-display);
+        font-size: 1.25rem;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+        color: #FFFFFF;
+        margin-bottom: 1.25rem;
+        position: relative;
+        padding-bottom: 0.5rem;
+      }
+
+      .footer-heading::after {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 24px;
+        height: 2px;
+        background-color: var(--color-orange);
+      }
+
+      .footer-nav {
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        gap: 0.75rem;
+      }
+
+      .footer-nav a {
+        color: rgba(255, 255, 255, 0.7);
+        font-size: 0.9375rem;
+        transition: color var(--transition);
+      }
+
+      @media (hover: hover) and (pointer: fine) {
+        .footer-nav a:hover {
+          color: var(--color-orange);
+        }
+      }
+
+      .footer-contact-list {
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        gap: 0.85rem;
+        font-size: 0.9375rem;
+        color: rgba(255, 255, 255, 0.7);
+      }
+
+      .footer-contact-list li {
+        display: flex;
+        align-items: flex-start;
+        gap: 0.625rem;
+      }
+
+      .footer-contact-list a {
+        color: rgba(255, 255, 255, 0.85);
+        transition: color var(--transition);
+      }
+
+      @media (hover: hover) and (pointer: fine) {
+        .footer-contact-list a:hover {
+          color: var(--color-orange);
+        }
+      }
+
+      .footer-bottom {
+        padding-top: 2rem;
+        border-top: 1px solid var(--border-dark);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-family: var(--font-mono);
+        font-size: 0.8125rem;
+        color: rgba(255, 255, 255, 0.45);
+      }
+
+      /* Animacje pojawiania się bez lagów */
+      .reveal {
+        opacity: 0;
+        transform: translateY(18px);
+        transition: opacity 0.35s ease, transform 0.35s ease;
+        will-change: opacity, transform;
+      }
+
+      .reveal.visible {
+        opacity: 1;
+        transform: translateY(0);
+      }
+
+      /* ==========================================================================
+         RESPONSYWNOŚĆ (MEDIA QUERIES) & ZERO SCROLLA POZIOMEGO
+         ========================================================================== */
+      @media (max-width: 1024px) {
+        .gallery-masonry {
+          column-count: 3;
+        }
+
+        .services-grid {
+          grid-template-columns: repeat(2, 1fr);
+        }
+
+        .service-card:nth-child(5) {
+          grid-column: 1 / -1;
+          max-width: 600px;
+          margin-left: auto;
+          margin-right: auto;
+          width: 100%;
+        }
+
+        .why-grid {
+          grid-template-columns: repeat(2, 1fr);
+          gap: 2.25rem;
+        }
+
+        .why-item:nth-child(2)::after {
+          display: none;
+        }
+
+        .hours-wrapper {
+          grid-template-columns: 1fr;
+          gap: 2.5rem;
+        }
+
+        .contact-grid {
+          grid-template-columns: 1fr;
+        }
+
+        .map-wrapper {
+          min-height: 360px;
+        }
+
+        .footer-grid {
+          grid-template-columns: 1fr 1fr;
+        }
+      }
+
+      @media (max-width: 768px) {
+        .nav-links, .nav-action {
+          display: none;
+        }
+
+        .hamburger-btn {
+          display: flex;
+        }
+
+        .hero {
+          padding-top: 6rem;
+          padding-bottom: 4rem;
+          min-height: auto;
+        }
+
+        .hero-title {
+          font-size: clamp(2.4rem, 10vw, 3.75rem);
+        }
+
+        .hero-buttons {
+          flex-direction: column;
+          width: 100%;
+        }
+
+        .hero-buttons .btn {
+          width: 100%;
+        }
+
+        .services-section {
+          padding: 4.5rem 0 3.5rem;
+        }
+
+        .services-grid {
+          grid-template-columns: 1fr;
+          gap: 1.125rem;
+        }
+
+        .service-card {
+          padding: 1.75rem 1.5rem;
+        }
+
+        .service-card:nth-child(5) {
+          max-width: 100%;
+        }
+
+        .gallery-section {
+          padding: 4.5rem 0;
+        }
+
+        .gallery-masonry {
+          column-count: 2;
+          column-gap: 0.875rem;
+        }
+
+        .gallery-item {
+          margin-bottom: 0.875rem;
+        }
+
+        .why-section {
+          padding: 4rem 0;
+        }
+
+        .why-grid {
+          grid-template-columns: 1fr;
+          gap: 1.25rem;
+        }
+
+        .why-item:not(:last-child)::after {
+          display: none;
+        }
+
+        .why-item {
+          padding: 0 0 1.25rem 0;
+          border-bottom: 1px solid var(--border-dark);
+        }
+
+        .why-item:last-child {
+          border-bottom: none;
+          padding-bottom: 0;
+        }
+
+        .hours-section, .contact-section {
+          padding: 4.5rem 0;
+        }
+
+        .hours-row {
+          padding: 0.85rem 1.125rem;
+          font-size: 0.875rem;
+        }
+
+        .footer-grid {
+          grid-template-columns: 1fr;
+          gap: 2rem;
+        }
+
+        .footer-bottom {
+          flex-direction: column;
+          gap: 0.75rem;
+          text-align: center;
+        }
+      }
+
+      @media (max-width: 480px) {
+        .container {
+          padding-left: 1rem;
+          padding-right: 1rem;
+        }
+
+        .brand-name {
+          font-size: 1.35rem;
+        }
+
+        .brand-sub {
+          font-size: 0.75rem;
+        }
+
+        .brand-logo-img {
+          width: 36px;
+          height: 36px;
+        }
+
+        .hero-title {
+          font-size: 2.25rem;
+        }
+
+        .hero-services-bar {
+          font-size: 0.8125rem;
+          padding: 0.75rem 1rem;
+        }
+
+        .gallery-masonry {
+          column-count: 1;
+        }
+
+        .contact-item {
+          padding: 1rem;
+          gap: 1rem;
+        }
+
+        .contact-val {
+          font-size: 0.9375rem;
+        }
+
+        .map-wrapper {
+          min-height: 300px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <!-- =======================================================================
+         1. NAWIGACJA
+         ======================================================================= -->
+    <header class="site-header" id="header">
+      <div class="container nav-container">
+        <a href="#" class="brand" aria-label="Proszkowy — Strona główna">
+          <img
+            src="https://i.ibb.co/35Fg41kJ/770658711-1557124986207797-2705213168696874513-n.jpg"
+            alt="Proszkowy Logo"
+            class="brand-logo-img"
+            width="42"
+            height="42"
+            loading="eager"
+            fetchpriority="high"
+            decoding="async"
+          />
+          <div class="brand-text">
+            <span class="brand-name">PROSZKOWY</span>
+            <span class="brand-sub">Lakiernia Proszkowa · Rybnik</span>
+          </div>
+        </a>
+
+        <nav aria-label="Główna nawigacja">
+          <ul class="nav-links">
+            <li><a href="#uslugi">Usługi</a></li>
+            <li><a href="#realizacje">Realizacje</a></li>
+            <li><a href="#godziny">Godziny</a></li>
+            <li><a href="#kontakt">Kontakt</a></li>
+          </ul>
+        </nav>
+
+        <div class="nav-action">
+          <a href="tel:790802630" class="btn btn-primary nav-phone-btn" title="Zadzwoń do nas">
+            <!-- Lucide Phone -->
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+            790 802 630
+          </a>
+        </div>
+
+        <button class="hamburger-btn" id="hamburgerBtn" aria-label="Otwórz menu mobilne" aria-expanded="false">
+          <span class="hamburger-line"></span>
+          <span class="hamburger-line"></span>
+          <span class="hamburger-line"></span>
+        </button>
+      </div>
+    </header>
+
+    <!-- Menu mobilne z przyciskiem wyjścia -->
+    <div class="mobile-menu-overlay" id="mobileMenu" aria-hidden="true">
+      <button class="mobile-close-btn" id="mobileCloseBtn" aria-label="Zamknij menu nawigacji">
+        <!-- Lucide X -->
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>
+        <span>Zamknij</span>
+      </button>
+
+      <ul class="mobile-links">
+        <li><a href="#uslugi" class="mobile-link">Usługi</a></li>
+        <li><a href="#realizacje" class="mobile-link">Realizacje</a></li>
+        <li><a href="#godziny" class="mobile-link">Godziny</a></li>
+        <li><a href="#kontakt" class="mobile-link">Kontakt</a></li>
+      </ul>
+
+      <a href="tel:790802630" class="btn btn-primary" style="font-size: 1.15rem; width: 100%; max-width: 320px;">
+        <!-- Lucide Phone -->
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+        Zadzwoń: 790 802 630
+      </a>
+    </div>
+
+    <!-- =======================================================================
+         2. HERO SECTION
+         ======================================================================= -->
+    <section class="hero" id="hero">
+      <div class="container">
+        <div class="hero-content reveal">
+          <div class="hero-location">
+            <!-- Lucide MapPin -->
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"/><circle cx="12" cy="10" r="3"/></svg>
+            <span>Rybnik, ul. Brzezińska 48e</span>
+          </div>
+
+          <h1 class="hero-title">
+            <span class="title-white">PROSZKOWY</span>
+            <span class="title-orange">LAKIERNIA PROSZKOWA</span>
+          </h1>
+
+          <div class="hero-services-bar" role="list" aria-label="Lista kluczowych usług">
+            <span>Lakierowanie proszkowe</span>
+            <span class="sep" aria-hidden="true">·</span>
+            <span>Renowacja felg</span>
+            <span class="sep" aria-hidden="true">·</span>
+            <span>Piaskowanie</span>
+            <span class="sep" aria-hidden="true">·</span>
+            <span>Śrutowanie</span>
+            <span class="sep" aria-hidden="true">·</span>
+            <span>Szkiełkowanie</span>
+          </div>
+
+          <div class="hero-buttons">
+            <a href="tel:790802630" class="btn btn-primary" title="Zadzwoń bezpośrednio">
+              <!-- Lucide Phone -->
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+              Zadzwoń: 790 802 630
+            </a>
+            <a href="#realizacje" class="btn btn-secondary">
+              Zobacz realizacje
+              <!-- Lucide ArrowRight -->
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-scroll-indicator" aria-hidden="true">
+        <span>Przewiń</span>
+        <div class="hero-scroll-line"></div>
+      </div>
+    </section>
+
+    <!-- =======================================================================
+         3. PASEK PRZEWIJANY (TICKER)
+         ======================================================================= -->
+    <div class="ticker-section" aria-hidden="true">
+      <div class="ticker-track">
+        <div class="ticker-content">
+          <span>Lakierowanie proszkowe</span>
+          <span class="ticker-bullet">✦</span>
+          <span>Renowacja felg</span>
+          <span class="ticker-bullet">✦</span>
+          <span>Piaskowanie</span>
+          <span class="ticker-bullet">✦</span>
+          <span>Śrutowanie</span>
+          <span class="ticker-bullet">✦</span>
+          <span>Szkiełkowanie</span>
+          <span class="ticker-bullet">✦</span>
+          <span>Rybnik</span>
+          <span class="ticker-bullet">✦</span>
+        </div>
+        <div class="ticker-content">
+          <span>Lakierowanie proszkowe</span>
+          <span class="ticker-bullet">✦</span>
+          <span>Renowacja felg</span>
+          <span class="ticker-bullet">✦</span>
+          <span>Piaskowanie</span>
+          <span class="ticker-bullet">✦</span>
+          <span>Śrutowanie</span>
+          <span class="ticker-bullet">✦</span>
+          <span>Szkiełkowanie</span>
+          <span class="ticker-bullet">✦</span>
+          <span>Rybnik</span>
+          <span class="ticker-bullet">✦</span>
+        </div>
+        <div class="ticker-content">
+          <span>Lakierowanie proszkowe</span>
+          <span class="ticker-bullet">✦</span>
+          <span>Renowacja felg</span>
+          <span class="ticker-bullet">✦</span>
+          <span>Piaskowanie</span>
+          <span class="ticker-bullet">✦</span>
+          <span>Śrutowanie</span>
+          <span class="ticker-bullet">✦</span>
+          <span>Szkiełkowanie</span>
+          <span class="ticker-bullet">✦</span>
+          <span>Rybnik</span>
+          <span class="ticker-bullet">✦</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- =======================================================================
+         4. USŁUGI (01 /)
+         ======================================================================= -->
+    <section class="services-section" id="uslugi">
+      <div class="container">
+        <div class="reveal">
+          <div class="section-tag">01 / Usługi</div>
+          <h2 class="section-title">Czym się zajmujemy</h2>
+          <p class="section-subtitle">
+            Oferujemy pełen cykl profesjonalnej obróbki i renowacji powierzchni metalowych — od dokładnego oczyszczenia po trwałe wykończenie lakiernicze.
+          </p>
+        </div>
+
+        <div class="services-grid">
+          <!-- Usługa 01: Lakierowanie proszkowe -->
+          <article class="service-card reveal">
+            <div>
+              <div class="service-card-top">
+                <span class="service-index">01</span>
+                <div class="service-icon-box" aria-hidden="true">
+                  <!-- Lucide Paintbrush -->
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m14.6 2.4-3.6 3.6a2 2 0 0 0 0 2.8l4.2 4.2a2 2 0 0 0 2.8 0l3.6-3.6a2 2 0 0 0 0-2.8l-4.2-4.2a2 2 0 0 0-2.8 0Z"/><path d="M12.5 7.5 4 16c-1.5 1.5-2 3.5-2 5 1.5 0 3.5-.5 5-2l8.5-8.5"/></svg>
+                </div>
+              </div>
+              <h3 class="service-card-title">Lakierowanie proszkowe</h3>
+              <p class="service-card-desc">
+                Trwała, równomierna powłoka na elementach metalowych, odporna na korozję, chemikalia i uszkodzenia mechaniczne.
+              </p>
+            </div>
+          </article>
+
+          <!-- Usługa 02: Renowacja felg -->
+          <article class="service-card reveal">
+            <div>
+              <div class="service-card-top">
+                <span class="service-index">02</span>
+                <div class="service-icon-box" aria-hidden="true">
+                  <!-- Lucide Disc3 -->
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M6 12c0-1.7.7-3.2 1.8-4.2"/><circle cx="12" cy="12" r="2"/><path d="M18 12c0 1.7-.7 3.2-1.8 4.2"/></svg>
+                </div>
+              </div>
+              <h3 class="service-card-title">Renowacja felg</h3>
+              <p class="service-card-desc">
+                Odświeżanie i przywracanie fabrycznego lub spersonalizowanego wyglądu felg aluminiowych i stalowych.
+              </p>
+            </div>
+          </article>
+
+          <!-- Usługa 03: Piaskowanie -->
+          <article class="service-card reveal">
+            <div>
+              <div class="service-card-top">
+                <span class="service-index">03</span>
+                <div class="service-icon-box" aria-hidden="true">
+                  <!-- Lucide Wind -->
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17.7 7.7a2.5 2.5 0 1 1 1.8 4.3H2"/><path d="M9.6 4.6A2 2 0 1 1 11 8H2"/><path d="M12.6 19.4A2 2 0 1 0 14 16H2"/></svg>
+                </div>
+              </div>
+              <h3 class="service-card-title">Piaskowanie</h3>
+              <p class="service-card-desc">
+                Usuwanie rdzy, starych powłok lakierniczych i zanieczyszczeń z powierzchni przed dalszą obróbką.
+              </p>
+            </div>
+          </article>
+
+          <!-- Usługa 04: Śrutowanie -->
+          <article class="service-card reveal">
+            <div>
+              <div class="service-card-top">
+                <span class="service-index">04</span>
+                <div class="service-icon-box" aria-hidden="true">
+                  <!-- Lucide Hammer -->
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m15 12-8.5 8.5a2.12 2.12 0 1 1-3-3L12 9"/><path d="m18 15 4-4"/><path d="m21.5 11.5-1.9-1.9A2 2 0 0 1 19 8.2V7l-2.3-2.3a6 6 0 0 0-4.2-1.7H12L2 13l2 2 4.5-4.5"/><path d="m18 8 2.5-2.5"/></svg>
+                </div>
+              </div>
+              <h3 class="service-card-title">Śrutowanie</h3>
+              <p class="service-card-desc">
+                Mechaniczne czyszczenie i przygotowanie metalu pod malowanie z optymalnym rozwinięciem powierzchni.
+              </p>
+            </div>
+          </article>
+
+          <!-- Usługa 05: Szkiełkowanie -->
+          <article class="service-card reveal">
+            <div>
+              <div class="service-card-top">
+                <span class="service-index">05</span>
+                <div class="service-icon-box" aria-hidden="true">
+                  <!-- Lucide Sparkles -->
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m12 3-1.9 5.8a2 2 0 0 1-1.3 1.3L3 12l5.8 1.9a2 2 0 0 1 1.3 1.3L12 21l1.9-5.8a2 2 0 0 1 1.3-1.3L21 12l-5.8-1.9a2 2 0 0 1-1.3-1.3Z"/><path d="M19 3v4"/><path d="M21 5h-4"/></svg>
+                </div>
+              </div>
+              <h3 class="service-card-title">Szkiełkowanie</h3>
+              <p class="service-card-desc">
+                Delikatne czyszczenie i satynowe matowienie powierzchni mikrokulkami szklanymi, idealne do metali kolorowych.
+              </p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- =======================================================================
+         5. PASEK GRAFITOWY — „DLACZEGO WARTO”
+         ======================================================================= -->
+    <section class="why-section" aria-label="Dlaczego warto wybrać Proszkowy">
+      <div class="container">
+        <div class="why-grid">
+          <!-- Kolumna 1 -->
+          <div class="why-item reveal">
+            <div class="why-icon" aria-hidden="true">
+              <!-- Lucide Layers -->
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m12.83 2.18a2 2 0 0 0-1.66 0L2.6 6.08a1 1 0 0 0 0 1.83l8.58 3.9a2 2 0 0 0 1.66 0l8.58-3.9a1 1 0 0 0 0-1.83Z"/><path d="m22 17.65-9.17 4.16a2 2 0 0 1-1.66 0L2 17.65"/><path d="m22 12.65-9.17 4.16a2 2 0 0 1-1.66 0L2 12.65"/></svg>
+            </div>
+            <h3 class="why-item-title">Pełny cykl obróbki</h3>
+            <p class="why-item-desc">Od czyszczenia powierzchni po gotową powłokę, w jednym miejscu.</p>
+          </div>
+
+          <!-- Kolumna 2 -->
+          <div class="why-item reveal">
+            <div class="why-icon" aria-hidden="true">
+              <!-- Lucide Disc -->
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="4"/></svg>
+            </div>
+            <h3 class="why-item-title">Felgi i elementy metalowe</h3>
+            <p class="why-item-desc">Doświadczenie w renowacji felg i różnych detali technicznych.</p>
+          </div>
+
+          <!-- Kolumna 3 -->
+          <div class="why-item reveal">
+            <div class="why-icon" aria-hidden="true">
+              <!-- Lucide CheckCircle2 -->
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="m9 12 2 2 4-4"/></svg>
+            </div>
+            <h3 class="why-item-title">Konkretna realizacja</h3>
+            <p class="why-item-desc">Jasna komunikacja, precyzja wykonania i terminowość.</p>
+          </div>
+
+          <!-- Kolumna 4 -->
+          <div class="why-item reveal">
+            <div class="why-icon" aria-hidden="true">
+              <!-- Lucide MapPin -->
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"/><circle cx="12" cy="10" r="3"/></svg>
+            </div>
+            <h3 class="why-item-title">Rybnik i okolice</h3>
+            <p class="why-item-desc">Lokalnie, z dogodnym dojazdem na ul. Brzezińską 48e.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =======================================================================
+         6. REALIZACJE — GALERIA MASONRY (BEZ PODPISÓW)
+         ======================================================================= -->
+    <section class="gallery-section" id="realizacje">
+      <div class="container">
+        <div class="reveal">
+          <div class="section-tag">02 / Galeria</div>
+          <h2 class="section-title">Nasze realizacje</h2>
+          <p class="section-subtitle">
+            Sprawdź wybrane efekty naszej pracy. Każdy detal traktujemy z równą starannością, dbając o idealne wykończenie krawędzi i trwałość powłoki.
+          </p>
+        </div>
+
+        <div class="gallery-masonry">
+          <!-- Zdjęcie 1 -->
+          <div class="gallery-item reveal" data-full="https://i.ibb.co/kgNCYWkb/505321720-1206794391240860-3505099141921705693-n.jpg" tabindex="0" role="button" aria-label="Powiększ zdjęcie realizacji 1">
+            <img
+              src="https://i.ibb.co/kgNCYWkb/505321720-1206794391240860-3505099141921705693-n.jpg"
+              alt="Lakierowanie proszkowe felg — Proszkowy Rybnik"
+              loading="lazy"
+              decoding="async"
+              referrerpolicy="no-referrer"
+            />
+            <div class="gallery-zoom-badge" aria-hidden="true">
+              <!-- Lucide Maximize2 -->
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 3 21 3 21 9"/><polyline points="9 21 3 21 3 15"/><line x1="21" x2="14" y1="3" y2="10"/><line x1="3" x2="10" y1="21" y2="14"/></svg>
+            </div>
+          </div>
+
+          <!-- Zdjęcie 2 -->
+          <div class="gallery-item reveal" data-full="https://i.ibb.co/7tKcg9Qf/505579994-1206794634574169-4398560743335356686-n.jpg" tabindex="0" role="button" aria-label="Powiększ zdjęcie realizacji 2">
+            <img
+              src="https://i.ibb.co/7tKcg9Qf/505579994-1206794634574169-4398560743335356686-n.jpg"
+              alt="Elementy metalowe po lakierowaniu proszkowym — Proszkowy Rybnik"
+              loading="lazy"
+              decoding="async"
+              referrerpolicy="no-referrer"
+            />
+            <div class="gallery-zoom-badge" aria-hidden="true">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 3 21 3 21 9"/><polyline points="9 21 3 21 3 15"/><line x1="21" x2="14" y1="3" y2="10"/><line x1="3" x2="10" y1="21" y2="14"/></svg>
+            </div>
+          </div>
+
+          <!-- Zdjęcie 3 -->
+          <div class="gallery-item reveal" data-full="https://i.ibb.co/8LWyPncC/550167482-1288781253042173-852247389116018020-n.jpg" tabindex="0" role="button" aria-label="Powiększ zdjęcie realizacji 3">
+            <img
+              src="https://i.ibb.co/8LWyPncC/550167482-1288781253042173-852247389116018020-n.jpg"
+              alt="Precyzyjne lakierowanie detali i felg — Proszkowy Rybnik"
+              loading="lazy"
+              decoding="async"
+              referrerpolicy="no-referrer"
+            />
+            <div class="gallery-zoom-badge" aria-hidden="true">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 3 21 3 21 9"/><polyline points="9 21 3 21 3 15"/><line x1="21" x2="14" y1="3" y2="10"/><line x1="3" x2="10" y1="21" y2="14"/></svg>
+            </div>
+          </div>
+
+          <!-- Zdjęcie 4 -->
+          <div class="gallery-item reveal" data-full="https://i.ibb.co/DgrnrQh1/552361089-1288781479708817-1255442071670069624-n.jpg" tabindex="0" role="button" aria-label="Powiększ zdjęcie realizacji 4">
+            <img
+              src="https://i.ibb.co/DgrnrQh1/552361089-1288781479708817-1255442071670069624-n.jpg"
+              alt="Powierzchnia metalowa po piaskowaniu i malowaniu proszkowym"
+              loading="lazy"
+              decoding="async"
+              referrerpolicy="no-referrer"
+            />
+            <div class="gallery-zoom-badge" aria-hidden="true">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 3 21 3 21 9"/><polyline points="9 21 3 21 3 15"/><line x1="21" x2="14" y1="3" y2="10"/><line x1="3" x2="10" y1="21" y2="14"/></svg>
+            </div>
+          </div>
+
+          <!-- Zdjęcie 5 -->
+          <div class="gallery-item reveal" data-full="https://i.ibb.co/LXt6HHPh/557752252-1295548005698831-938944376674690713-n.jpg" tabindex="0" role="button" aria-label="Powiększ zdjęcie realizacji 5">
+            <img
+              src="https://i.ibb.co/LXt6HHPh/557752252-1295548005698831-938944376674690713-n.jpg"
+              alt="Komplet odnowionych felg samochodowych — Proszkowy Rybnik"
+              loading="lazy"
+              decoding="async"
+              referrerpolicy="no-referrer"
+            />
+            <div class="gallery-zoom-badge" aria-hidden="true">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 3 21 3 21 9"/><polyline points="9 21 3 21 3 15"/><line x1="21" x2="14" y1="3" y2="10"/><line x1="3" x2="10" y1="21" y2="14"/></svg>
+            </div>
+          </div>
+
+          <!-- Zdjęcie 6 -->
+          <div class="gallery-item reveal" data-full="https://i.ibb.co/HDWzbK2W/557611140-1295548082365490-253219646477810753-n.jpg" tabindex="0" role="button" aria-label="Powiększ zdjęcie realizacji 6">
+            <img
+              src="https://i.ibb.co/HDWzbK2W/557611140-1295548082365490-253219646477810753-n.jpg"
+              alt="Profesjonalne wykończenie lakiernicze części metalowych"
+              loading="lazy"
+              decoding="async"
+              referrerpolicy="no-referrer"
+            />
+            <div class="gallery-zoom-badge" aria-hidden="true">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 3 21 3 21 9"/><polyline points="9 21 3 21 3 15"/><line x1="21" x2="14" y1="3" y2="10"/><line x1="3" x2="10" y1="21" y2="14"/></svg>
+            </div>
+          </div>
+
+          <!-- Zdjęcie 7 -->
+          <div class="gallery-item reveal" data-full="https://i.ibb.co/tMKpKyp4/556691637-1295548145698817-3369437541293125160-n.jpg" tabindex="0" role="button" aria-label="Powiększ zdjęcie realizacji 7">
+            <img
+              src="https://i.ibb.co/tMKpKyp4/556691637-1295548145698817-3369437541293125160-n.jpg"
+              alt="Efekt po śrutowaniu i malowaniu proszkowym felgi"
+              loading="lazy"
+              decoding="async"
+              referrerpolicy="no-referrer"
+            />
+            <div class="gallery-zoom-badge" aria-hidden="true">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 3 21 3 21 9"/><polyline points="9 21 3 21 3 15"/><line x1="21" x2="14" y1="3" y2="10"/><line x1="3" x2="10" y1="21" y2="14"/></svg>
+            </div>
+          </div>
+
+          <!-- Zdjęcie 8 -->
+          <div class="gallery-item reveal" data-full="https://i.ibb.co/7dDfM0w8/557619375-1295548219032143-8056584118128286223-n.jpg" tabindex="0" role="button" aria-label="Powiększ zdjęcie realizacji 8">
+            <img
+              src="https://i.ibb.co/7dDfM0w8/557619375-1295548219032143-8056584118128286223-n.jpg"
+              alt="Równomierna powłoka lakiernicza na konstrukcji metalowej"
+              loading="lazy"
+              decoding="async"
+              referrerpolicy="no-referrer"
+            />
+            <div class="gallery-zoom-badge" aria-hidden="true">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 3 21 3 21 9"/><polyline points="9 21 3 21 3 15"/><line x1="21" x2="14" y1="3" y2="10"/><line x1="3" x2="10" y1="21" y2="14"/></svg>
+            </div>
+          </div>
+
+          <!-- Zdjęcie 9 -->
+          <div class="gallery-item reveal" data-full="https://i.ibb.co/zTBbj5fS/599918887-17854998096583787-1971810976136272987-n.jpg" tabindex="0" role="button" aria-label="Powiększ zdjęcie realizacji 9">
+            <img
+              src="https://i.ibb.co/zTBbj5fS/599918887-17854998096583787-1971810976136272987-n.jpg"
+              alt="Renowacja części motoryzacyjnych w lakierni Proszkowy"
+              loading="lazy"
+              decoding="async"
+              referrerpolicy="no-referrer"
+            />
+            <div class="gallery-zoom-badge" aria-hidden="true">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 3 21 3 21 9"/><polyline points="9 21 3 21 3 15"/><line x1="21" x2="14" y1="3" y2="10"/><line x1="3" x2="10" y1="21" y2="14"/></svg>
+            </div>
+          </div>
+        </div>
+
+        <div class="gallery-cta-wrap reveal">
+          <a
+            href="https://www.facebook.com/proszkowypiaskowy/"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="btn btn-outline-dark"
+          >
+            <!-- Lucide Facebook -->
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+            Więcej na Facebooku
+            <!-- Lucide ArrowRight -->
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Modal Lightbox (Czysty, zoptymalizowany JS) -->
+    <div class="lightbox-modal" id="lightboxModal" role="dialog" aria-modal="true" aria-label="Podgląd zdjęcia">
+      <div class="lightbox-content">
+        <button class="lightbox-close" id="lightboxClose" aria-label="Zamknij podgląd">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>
+          <span>Zamknij</span>
+        </button>
+        <img id="lightboxImage" src="" alt="Powiększone zdjęcie realizacji" />
+      </div>
+    </div>
+
+    <!-- =======================================================================
+         7. GODZINY OTWARCIA
+         ======================================================================= -->
+    <section class="hours-section" id="godziny">
+      <div class="container">
+        <div class="hours-wrapper">
+          <div class="hours-info reveal">
+            <div class="section-tag">HARMONOGRAM</div>
+            <h2 class="section-title light">Godziny otwarcia</h2>
+            <p>
+              Zapraszamy do naszego warsztatu przy ul. Brzezińskiej 48e w Rybniku. Prosimy o wcześniejszy kontakt telefoniczny przed dostarczeniem nietypowych lub wielkogabarytowych elementów.
+            </p>
+            <div class="status-pill" id="liveStatus">
+              <span class="status-dot" id="statusDot"></span>
+              <span id="statusText">Sprawdzanie statusu...</span>
+            </div>
+          </div>
+
+          <div class="hours-table-card reveal">
+            <div class="hours-table" role="table" aria-label="Tabela godzin otwarcia">
+              <div class="hours-row" role="row">
+                <span class="hours-day" role="cell">Poniedziałek</span>
+                <span class="hours-time" role="cell">07:00 – 15:00</span>
+              </div>
+              <div class="hours-row" role="row">
+                <span class="hours-day" role="cell">Wtorek</span>
+                <span class="hours-time" role="cell">07:00 – 15:00</span>
+              </div>
+              <div class="hours-row" role="row">
+                <span class="hours-day" role="cell">Środa</span>
+                <span class="hours-time" role="cell">07:00 – 15:00</span>
+              </div>
+              <div class="hours-row" role="row">
+                <span class="hours-day" role="cell">Czwartek</span>
+                <span class="hours-time" role="cell">07:00 – 15:00</span>
+              </div>
+              <div class="hours-row special" role="row">
+                <span class="hours-day" role="cell">Piątek (krótszy dzień)</span>
+                <span class="hours-time" role="cell">07:00 – 14:00</span>
+              </div>
+              <div class="hours-row closed" role="row">
+                <span class="hours-day" role="cell">Sobota</span>
+                <span class="hours-time" role="cell">ZAMKNIĘTE</span>
+              </div>
+              <div class="hours-row closed" role="row">
+                <span class="hours-day" role="cell">Niedziela</span>
+                <span class="hours-time" role="cell">ZAMKNIĘTE</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =======================================================================
+         8. KONTAKT I MAPA (03 /)
+         ======================================================================= -->
+    <section class="contact-section" id="kontakt">
+      <div class="container">
+        <div class="reveal">
+          <div class="section-tag">03 / Kontakt</div>
+          <h2 class="section-title">Skontaktuj się z nami</h2>
+          <p class="section-subtitle">
+            Masz pytania dotyczące wyceny, terminów lub technologii? Zadzwoń, napisz do nas lub odwiedź lakiernię osobiście.
+          </p>
+        </div>
+
+        <div class="contact-grid">
+          <!-- Lewa kolumna: Dane kontaktowe -->
+          <div class="contact-left reveal">
+            <div class="contact-cards-list">
+              <!-- Telefon -->
+              <a href="tel:790802630" class="contact-item" title="Zadzwoń: 790 802 630">
+                <div class="contact-icon-box" aria-hidden="true">
+                  <!-- Lucide Phone -->
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+                </div>
+                <div>
+                  <div class="contact-label">Telefon</div>
+                  <div class="contact-val mono">790 802 630</div>
+                </div>
+              </a>
+
+              <!-- E-mail -->
+              <a href="mailto:proszkowy.rybnik@gmail.com" class="contact-item" title="Napisz e-mail">
+                <div class="contact-icon-box" aria-hidden="true">
+                  <!-- Lucide Mail -->
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+                </div>
+                <div>
+                  <div class="contact-label">Adres e-mail</div>
+                  <div class="contact-val">proszkowy.rybnik@gmail.com</div>
+                </div>
+              </a>
+
+              <!-- Adres -->
+              <div class="contact-item">
+                <div class="contact-icon-box" aria-hidden="true">
+                  <!-- Lucide MapPin -->
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"/><circle cx="12" cy="10" r="3"/></svg>
+                </div>
+                <div>
+                  <div class="contact-label">Lokalizacja</div>
+                  <div class="contact-val">ul. Brzezińska 48e, 44-203 Rybnik</div>
+                </div>
+              </div>
+
+              <!-- Facebook -->
+              <a href="https://www.facebook.com/proszkowypiaskowy/" target="_blank" rel="noopener noreferrer" class="contact-item" title="Odwiedź profil na Facebooku">
+                <div class="contact-icon-box" aria-hidden="true">
+                  <!-- Lucide Facebook -->
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+                </div>
+                <div>
+                  <div class="contact-label">Facebook</div>
+                  <div class="contact-val">facebook.com/proszkowypiaskowy</div>
+                </div>
+              </a>
+            </div>
+
+            <a href="tel:790802630" class="btn btn-primary" style="width: 100%;">
+              <!-- Lucide Phone -->
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+              Zadzwoń teraz: 790 802 630
+            </a>
+          </div>
+
+          <!-- Prawa kolumna: Mapa Google Embed -->
+          <div class="map-wrapper reveal">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3309.7449272831595!2d18.55998481258277!3d50.0899803131335!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47114f2dbf7ef793%3A0x551e40117fc2ea37!2sProszkowy%20-%20lakiernia%20proszkowa!5e1!3m2!1spl!2spl!4v1791806801814!5m2!1spl!2spl"
+              width="600"
+              height="450"
+              style="border:0;"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+              title="Lokalizacja Proszkowy — lakiernia proszkowa w Rybniku"
+            ></iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =======================================================================
+         9. STOPKA (FOOTER)
+         ======================================================================= -->
+    <footer class="site-footer">
+      <div class="container">
+        <div class="footer-grid">
+          <!-- Brand & Opis -->
+          <div class="footer-brand-wrap">
+            <div class="footer-brand">
+              <img
+                src="https://i.ibb.co/35Fg41kJ/770658711-1557124986207797-2705213168696874513-n.jpg"
+                alt="Proszkowy Logo"
+                class="brand-logo-img"
+                width="38"
+                height="38"
+                loading="lazy"
+                decoding="async"
+              />
+              <div class="brand-text">
+                <span class="brand-name">PROSZKOWY</span>
+                <span class="brand-sub">Lakiernia Proszkowa · Rybnik</span>
+              </div>
+            </div>
+            <p class="footer-desc">
+              Lakiernia proszkowa, renowacja felg, piaskowanie, śrutowanie i szkiełkowanie w Rybniku. Solidna obróbka powierzchni metalowych z dbałością o każdy detal.
+            </p>
+          </div>
+
+          <!-- Nawigacja -->
+          <div>
+            <h4 class="footer-heading">Nawigacja</h4>
+            <ul class="footer-nav">
+              <li><a href="#hero">Strona główna</a></li>
+              <li><a href="#uslugi">Zakres usług</a></li>
+              <li><a href="#realizacje">Nasze realizacje</a></li>
+              <li><a href="#godziny">Godziny otwarcia</a></li>
+              <li><a href="#kontakt">Kontakt i dojazd</a></li>
+            </ul>
+          </div>
+
+          <!-- Kontakt -->
+          <div>
+            <h4 class="footer-heading">Kontakt</h4>
+            <ul class="footer-contact-list">
+              <li>
+                <!-- Lucide Phone -->
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="margin-top: 4px; color: var(--color-orange);" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+                <a href="tel:790802630">790 802 630</a>
+              </li>
+              <li>
+                <!-- Lucide Mail -->
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="margin-top: 4px; color: var(--color-orange);" aria-hidden="true"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+                <a href="mailto:proszkowy.rybnik@gmail.com">proszkowy.rybnik@gmail.com</a>
+              </li>
+              <li>
+                <!-- Lucide MapPin -->
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="margin-top: 4px; color: var(--color-orange);" aria-hidden="true"><path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"/><circle cx="12" cy="10" r="3"/></svg>
+                <span>ul. Brzezińska 48e<br>44-203 Rybnik</span>
+              </li>
+              <li>
+                <!-- Lucide Facebook -->
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="margin-top: 4px; color: var(--color-orange);" aria-hidden="true"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+                <a href="https://www.facebook.com/proszkowypiaskowy/" target="_blank" rel="noopener noreferrer">Facebook</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <p>© 2026 Proszkowy — Lakiernia Proszkowa. Wszelkie prawa zastrzeżone.</p>
+          <p>Rybnik, ul. Brzezińska 48e</p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- =======================================================================
+         INTERAKCJE I SKRYPTY (ZOPTYMALIZOWANY CZYSTY JS)
+         ======================================================================= -->
+    <script>
+      (function() {
+        'use strict';
+
+        // 1. Zmiana stylu nagłówka po przewinięciu 70px (zoptymalizowany rAF throttler)
+        const header = document.getElementById('header');
+        let ticking = false;
+
+        function updateHeader() {
+          if (window.scrollY > 60) {
+            header.classList.add('scrolled');
+          } else {
+            header.classList.remove('scrolled');
+          }
+          ticking = false;
+        }
+
+        window.addEventListener('scroll', function() {
+          if (!ticking) {
+            window.requestAnimationFrame(updateHeader);
+            ticking = true;
+          }
+        }, { passive: true });
+        updateHeader();
+
+        // 2. Obsługa menu mobilnego oraz dedykowanego przycisku wyjścia
+        const hamburgerBtn = document.getElementById('hamburgerBtn');
+        const mobileMenu = document.getElementById('mobileMenu');
+        const mobileCloseBtn = document.getElementById('mobileCloseBtn');
+        const mobileLinks = document.querySelectorAll('.mobile-link');
+
+        function openMenu() {
+          hamburgerBtn.classList.add('active');
+          mobileMenu.classList.add('active');
+          hamburgerBtn.setAttribute('aria-expanded', 'true');
+          mobileMenu.setAttribute('aria-hidden', 'false');
+          document.body.style.overflow = 'hidden';
+        }
+
+        function closeMenu() {
+          hamburgerBtn.classList.remove('active');
+          mobileMenu.classList.remove('active');
+          hamburgerBtn.setAttribute('aria-expanded', 'false');
+          mobileMenu.setAttribute('aria-hidden', 'true');
+          document.body.style.overflow = '';
+        }
+
+        function toggleMenu() {
+          if (mobileMenu.classList.contains('active')) {
+            closeMenu();
+          } else {
+            openMenu();
+          }
+        }
+
+        hamburgerBtn.addEventListener('click', toggleMenu);
+        mobileCloseBtn.addEventListener('click', closeMenu);
+
+        mobileLinks.forEach(function(link) {
+          link.addEventListener('click', function() {
+            closeMenu();
+          });
+        });
+
+        // 3. Płynne, lekkie pojawianie się sekcji (IntersectionObserver)
+        const revealElements = document.querySelectorAll('.reveal');
+        if ('IntersectionObserver' in window) {
+          const observer = new IntersectionObserver(function(entries) {
+            entries.forEach(function(entry) {
+              if (entry.isIntersecting) {
+                entry.target.classList.add('visible');
+                observer.unobserve(entry.target);
+              }
+            });
+          }, {
+            threshold: 0.1,
+            rootMargin: '0px 0px -20px 0px'
+          });
+
+          revealElements.forEach(function(el) {
+            observer.observe(el);
+          });
+        } else {
+          revealElements.forEach(function(el) {
+            el.classList.add('visible');
+          });
+        }
+
+        // 4. Modal Lightbox dla galerii realizacji
+        const galleryItems = document.querySelectorAll('.gallery-item');
+        const lightboxModal = document.getElementById('lightboxModal');
+        const lightboxImage = document.getElementById('lightboxImage');
+        const lightboxClose = document.getElementById('lightboxClose');
+
+        function openLightbox(src) {
+          lightboxImage.src = src;
+          lightboxModal.classList.add('active');
+          document.body.style.overflow = 'hidden';
+        }
+
+        function closeLightbox() {
+          lightboxModal.classList.remove('active');
+          document.body.style.overflow = '';
+          setTimeout(function() {
+            lightboxImage.src = '';
+          }, 250);
+        }
+
+        galleryItems.forEach(function(item) {
+          item.addEventListener('click', function() {
+            const fullSrc = item.getAttribute('data-full');
+            if (fullSrc) openLightbox(fullSrc);
+          });
+
+          item.addEventListener('keydown', function(e) {
+            if (e.key === 'Enter' || e.key === ' ') {
+              e.preventDefault();
+              const fullSrc = item.getAttribute('data-full');
+              if (fullSrc) openLightbox(fullSrc);
+            }
+          });
+        });
+
+        lightboxClose.addEventListener('click', closeLightbox);
+        lightboxModal.addEventListener('click', function(e) {
+          if (e.target === lightboxModal) {
+            closeLightbox();
+          }
+        });
+
+        window.addEventListener('keydown', function(e) {
+          if (e.key === 'Escape') {
+            if (lightboxModal.classList.contains('active')) {
+              closeLightbox();
+            }
+            if (mobileMenu.classList.contains('active')) {
+              closeMenu();
+            }
+          }
+        });
+
+        // 5. Automatyczny wskaźnik statusu otwarcia lakierni (godziny w strefie PL)
+        function checkBusinessStatus() {
+          const now = new Date();
+          const options = { timeZone: 'Europe/Warsaw', hour12: false, weekday: 'short', hour: 'numeric', minute: 'numeric' };
+          const formatter = new Intl.DateTimeFormat('pl-PL', options);
+          const parts = formatter.formatToParts(now);
+
+          let weekday = '';
+          let hour = 0;
+          let minute = 0;
+
+          parts.forEach(function(part) {
+            if (part.type === 'weekday') weekday = part.value.toLowerCase();
+            if (part.type === 'hour') hour = parseInt(part.value, 10);
+            if (part.type === 'minute') minute = parseInt(part.value, 10);
+          });
+
+          const currentMinutes = hour * 60 + minute;
+          let isOpen = false;
+          let infoText = '';
+
+          const isMonThu = weekday.startsWith('pon') || weekday.startsWith('wt') || weekday.startsWith('śr') || weekday.startsWith('czw');
+          const isFri = weekday.startsWith('pt');
+
+          if (isMonThu) {
+            if (currentMinutes >= 7 * 60 && currentMinutes < 15 * 60) {
+              isOpen = true;
+              infoText = 'Aktualnie: OTWARTE (do 15:00)';
+            } else if (currentMinutes < 7 * 60) {
+              infoText = 'Aktualnie: ZAMKNIĘTE (otwieramy o 07:00)';
+            } else {
+              infoText = 'Aktualnie: ZAMKNIĘTE (zapraszamy jutro od 07:00)';
+            }
+          } else if (isFri) {
+            if (currentMinutes >= 7 * 60 && currentMinutes < 14 * 60) {
+              isOpen = true;
+              infoText = 'Aktualnie: OTWARTE (dziś do 14:00)';
+            } else if (currentMinutes < 7 * 60) {
+              infoText = 'Aktualnie: ZAMKNIĘTE (otwieramy o 07:00)';
+            } else {
+              infoText = 'Aktualnie: ZAMKNIĘTE (zapraszamy w poniedziałek od 07:00)';
+            }
+          } else {
+            infoText = 'Aktualnie: ZAMKNIĘTE (zapraszamy w poniedziałek od 07:00)';
+          }
+
+          const statusDot = document.getElementById('statusDot');
+          const statusText = document.getElementById('statusText');
+
+          if (statusDot && statusText) {
+            if (isOpen) {
+              statusDot.className = 'status-dot open';
+              statusText.textContent = infoText;
+            } else {
+              statusDot.className = 'status-dot closed';
+              statusText.textContent = infoText;
+            }
+          }
+        }
+
+        checkBusinessStatus();
+      })();
+    </script>
+  </body>
+</html>

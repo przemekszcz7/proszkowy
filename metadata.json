@@ -1,0 +1,8 @@
+{
+  "name": "Proszkowy — Lakiernia Proszkowa Rybnik",
+  "description": "Profesjonalne lakierowanie proszkowe, renowacja felg, piaskowanie, śrutowanie i szkiełkowanie w Rybniku.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
